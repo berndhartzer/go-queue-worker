@@ -1,6 +1,8 @@
 # go-queue-worker 
 
-A proof of concept for an idea. Code published, warts and all, to use as reference.
+A proof of concept for an idea. Features queue message polling, batch message deletion and graceful server shutdown making sure all channels are drained and messages fully processed.
+
+Code published, warts and all, to use as reference if need be.
 
 ## Running
 ```sh
